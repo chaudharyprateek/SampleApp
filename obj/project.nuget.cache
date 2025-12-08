@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Ez51FFEVtJS6DJr7dpitVd5QFLPHifkStSOg8YywUG1p4/b65x/Tfeq3raL0BrjdFNF/GYmphhoMfKxvTPb80w==",
+  "dgSpecHash": "K6LsNAbK+P8=",
   "success": true,
   "projectFilePath": "/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/SampleApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/prateekchaudhary/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/prateekchaudhary/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/prateekchaudhary/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.22/microsoft.netcore.app.host.osx-x64.8.0.22.nupkg.sha512"
+  ],
   "logs": []
 }

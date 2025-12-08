@@ -1,0 +1,19 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app: sampleapp
+    app.kubernetes.io/component: sampleapp
+    app.kubernetes.io/instance: sampleapp
+  name: sampleapp
+spec:
+  port:
+    targetPort: 8080-tcp
+  tls:
+    termination: edge
+  to:
+    kind: ""
+    name: sampleapp
+    weight: null
+status: {}
