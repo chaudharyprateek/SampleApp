@@ -1,0 +1,12 @@
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/netcoreapp3.1/SampleApp.deps.json
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/netcoreapp3.1/SampleApp.runtimeconfig.json
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/netcoreapp3.1/SampleApp.runtimeconfig.dev.json
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/netcoreapp3.1/SampleApp.dll
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/netcoreapp3.1/SampleApp.pdb
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/netcoreapp3.1/SampleApp.csprojAssemblyReference.cache
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/netcoreapp3.1/SampleApp.AssemblyInfoInputs.cache
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/netcoreapp3.1/SampleApp.AssemblyInfo.cs
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/netcoreapp3.1/SampleApp.csproj.CoreCompileInputs.cache
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/netcoreapp3.1/SampleApp.dll
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/netcoreapp3.1/SampleApp.pdb
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/netcoreapp3.1/SampleApp.genruntimeconfig.cache
