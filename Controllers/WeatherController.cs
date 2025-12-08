@@ -12,7 +12,7 @@ namespace SampleApp.Controllers
         public IActionResult Get()
         {
             var rng = new Random();
-            var summaries = new[] { "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching" };
+            var summaries = new[] { "Sampleeeeee praaateeekkkkk" };
 
             var forecasts = Enumerable.Range(1, 5).Select(index => new
             {

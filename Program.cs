@@ -25,7 +25,7 @@ app.UseStaticFiles();
 
 app.MapControllers();
 
-app.MapGet("/api/hello", () => Results.Json(new { message = "Hello from SampleApp API" }));
+app.MapGet("/api/hello", () => Results.Json(new { message = "Prateek" }));
 
 // Serve the SPA/default page for any non-API route
 app.MapFallbackToFile("index.html");
