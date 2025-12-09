@@ -1,0 +1,9 @@
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/publish/SampleApp
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/publish/SampleApp.dll
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/publish/SampleApp.deps.json
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/publish/SampleApp.runtimeconfig.json
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/publish/SampleApp.pdb
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/publish/Microsoft.OpenApi.dll
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/publish/Swashbuckle.AspNetCore.Swagger.dll
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/publish/Swashbuckle.AspNetCore.SwaggerUI.dll

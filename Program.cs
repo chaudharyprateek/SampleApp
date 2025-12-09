@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,6 +27,16 @@ app.UseStaticFiles();
 app.MapControllers();
 
 app.MapGet("/api/hello", () => Results.Json(new { message = "Prateek" }));
+
+app.MapGet("/config", (IConfiguration config) =>
+{
+    return new
+    {
+        ApiBaseUrl = config["ApiBaseUrl"],
+        FeatureFlagX = config["FeatureFlagX"],
+        ApiKey = config["ApiKey"]
+    };
+});
 
 // Serve the SPA/default page for any non-API route
 app.MapFallbackToFile("index.html");

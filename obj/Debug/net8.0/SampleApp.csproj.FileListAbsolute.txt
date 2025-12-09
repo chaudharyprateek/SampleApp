@@ -33,3 +33,7 @@
 /Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/net8.0/staticwebassets.build.endpoints.json
 /Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/net8.0/swae.build.ex.cache
 /Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/obj/Debug/net8.0/SampleApp.csproj.Up2Date
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/publish/web.config
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/publish/SampleApp.deps.json
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/publish/SampleApp.runtimeconfig.json
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/publish/SampleApp.staticwebassets.endpoints.json
