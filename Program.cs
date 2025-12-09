@@ -26,7 +26,7 @@ app.UseStaticFiles();
 
 app.MapControllers();
 
-app.MapGet("/api/hello", () => Results.Json(new { message = "Prateek" }));
+app.MapGet("/api/hello", () => Results.Json(new { message = "Prateek new changes" }));
 
 app.MapGet("/config", (IConfiguration config) =>
 {
