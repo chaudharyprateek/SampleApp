@@ -37,7 +37,7 @@ app.MapGet("/config", (IConfiguration config) =>
         ApiKey = config["ApiKey"]
     };
 });
-//comment
+//commentss
 // Serve the SPA/default page for any non-API route
 app.MapFallbackToFile("index.html");
 
