@@ -26,7 +26,7 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers();
 
-app.MapGet("/api/hello", () => Results.Json(new { message = "Prateek new changeweewewweews" }));
+app.MapGet("/api/hello", () => Results.Json(new { message = "Prateek new ctestttiiis" }));
 
 app.MapGet("/config", (IConfiguration config) =>
 {
@@ -44,7 +44,7 @@ app.MapGet("/api/redis-test", async (IConfiguration config) =>
 {
     var host = config["REDIS_HOST"];
     var port = config["REDIS_PORT"];
-    var password = config["REDIS_PASSWORD"];
+    var password = "demo";
 
     try
     {
