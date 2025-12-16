@@ -1,18 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "F+wCH/cz6Sc=",
+  "dgSpecHash": "cvM+1GC+U+k=",
   "success": true,
   "projectFilePath": "/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/SampleApp.csproj",
   "expectedPackageFiles": [
     "/Users/prateekchaudhary/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/prateekchaudhary/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/prateekchaudhary/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/Users/prateekchaudhary/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/Users/prateekchaudhary/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/prateekchaudhary/.nuget/packages/stackexchange.redis/2.10.1/stackexchange.redis.2.10.1.nupkg.sha512",
     "/Users/prateekchaudhary/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/prateekchaudhary/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/prateekchaudhary/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/Users/prateekchaudhary/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
-    "/Users/prateekchaudhary/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "/Users/prateekchaudhary/.nuget/packages/system.io.hashing/9.0.10/system.io.hashing.9.0.10.nupkg.sha512",
+    "/Users/prateekchaudhary/.nuget/packages/system.io.pipelines/5.0.1/system.io.pipelines.5.0.1.nupkg.sha512",
     "/Users/prateekchaudhary/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.22/microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
-    "/Users/prateekchaudhary/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.22/microsoft.netcore.app.host.osx-x64.8.0.22.nupkg.sha512"
+    "/Users/prateekchaudhary/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.22/microsoft.netcore.app.host.osx-x64.8.0.22.nupkg.sha512",
+    "/Users/prateekchaudhary/.nuget/packages/microsoft.netcore.app.ref/8.0.22/microsoft.netcore.app.ref.8.0.22.nupkg.sha512"
   ],
   "logs": []
 }

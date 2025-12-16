@@ -37,3 +37,6 @@
 /Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/publish/SampleApp.deps.json
 /Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/publish/SampleApp.runtimeconfig.json
 /Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/publish/SampleApp.staticwebassets.endpoints.json
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/Pipelines.Sockets.Unofficial.dll
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/StackExchange.Redis.dll
+/Users/prateekchaudhary/Desktop/EY/SampleProject/SampleApp/bin/Debug/net8.0/System.IO.Hashing.dll
