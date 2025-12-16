@@ -44,10 +44,19 @@ app.MapGet("/api/redis-test", async (IConfiguration config) =>
 {
     var host = config["REDIS_HOST"];
     var port = config["REDIS_PORT"];
+    var password = config["REDIS_PASSWORD"];
 
     try
     {
-        var redis = await ConnectionMultiplexer.ConnectAsync($"{host}:{port}");
+        var options = new ConfigurationOptions
+        {
+            EndPoints = { $"{host}:{port}" },
+            Password = password,
+            AbortOnConnectFail = true,
+            ConnectTimeout = 5000
+        };
+
+        var redis = await ConnectionMultiplexer.ConnectAsync(options);
         var db = redis.GetDatabase();
 
         await db.StringSetAsync("operator:test", "Hello Operator");
@@ -60,7 +69,6 @@ app.MapGet("/api/redis-test", async (IConfiguration config) =>
         return Results.Problem(ex.Message);
     }
 });
-
 //commentss
 // Serve the SPA/default page for any non-API route
 app.UseStaticFiles();
