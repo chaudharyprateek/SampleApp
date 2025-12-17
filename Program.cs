@@ -5,6 +5,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using StackExchange.Redis;
+using System.IO;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
@@ -38,7 +39,19 @@ app.MapGet("/config", (IConfiguration config) =>
     };
 });
 
+app.MapGet("/api/write-file", () =>
+{
+    File.WriteAllText("/data/hello.txt", "Hello from OpenShift storage");
+    return "File written";
+});
 
+app.MapGet("/api/read-file", () =>
+{
+    if (!File.Exists("/data/hello.txt"))
+        return "File not found";
+
+    return File.ReadAllText("/data/hello.txt");
+});
 
 app.MapGet("/api/redis-test", async (IConfiguration config) =>
 {
