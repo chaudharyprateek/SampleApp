@@ -27,7 +27,7 @@ if (app.Environment.IsDevelopment())
 
 app.MapControllers();
 
-app.MapGet("/api/hello", () => Results.Json(new { message = "Prateek new ctestttiiis" }));
+app.MapGet("/api/hello", () => Results.Json(new { message = "Prateek new ctestt2222211766tiiis" }));
 
 app.MapGet("/config", (IConfiguration config) =>
 {
