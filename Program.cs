@@ -44,7 +44,7 @@ app.MapGet("/api/write-file", () =>
     File.WriteAllText("/data/hello.txt", "Hello from OpenShift storage");
     return "File written";
 });
-
+app.MapGet("/", () => "App is running on OpenShift");
 app.MapGet("/api/read-file", () =>
 {
     if (!File.Exists("/data/hello.txt"))
